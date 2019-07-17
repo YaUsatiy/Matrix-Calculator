@@ -1,0 +1,48 @@
+object fmHi: TfmHi
+  Left = 550
+  Top = 155
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = #1057#1090#1088#1072#1085#1080#1094#1072' '#1087#1088#1080#1074#1077#1090#1089#1090#1074#1080#1103
+  ClientHeight = 347
+  ClientWidth = 713
+  Color = clBtnFace
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clFuchsia
+  Font.Height = -21
+  Font.Name = 'Times New Roman'
+  Font.Style = [fsBold]
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 24
+  object lbMCalc: TLabel
+    Left = 24
+    Top = 96
+    Width = 681
+    Height = 79
+    Caption = #1052#1072#1090#1088#1080#1095#1085#1099#1081' '#1082#1072#1083#1100#1082#1091#1083#1103#1090#1086#1088
+    Color = clGray
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -64
+    Font.Name = 'Monotype Corsiva'
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+    Transparent = True
+  end
+  object butStart: TButton
+    Left = 240
+    Top = 256
+    Width = 201
+    Height = 49
+    Cursor = crHandPoint
+    Caption = #1053#1072#1095#1072#1090#1100' '#1088#1072#1073#1086#1090#1091
+    Default = True
+    TabOrder = 0
+    OnClick = butStartClick
+  end
+end
